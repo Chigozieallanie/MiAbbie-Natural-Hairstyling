@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MiAbbie-Natural-Hairstyling/static/css/main.2baee5d4.css",
+    "main.js": "/MiAbbie-Natural-Hairstyling/static/js/main.8519dadd.js",
+    "static/js/453.05dacea6.chunk.js": "/MiAbbie-Natural-Hairstyling/static/js/453.05dacea6.chunk.js",
+    "static/media/swwa.png": "/MiAbbie-Natural-Hairstyling/static/media/swwa.e53b44f21eb8433b3325.png",
+    "index.html": "/MiAbbie-Natural-Hairstyling/index.html",
+    "main.2baee5d4.css.map": "/MiAbbie-Natural-Hairstyling/static/css/main.2baee5d4.css.map",
+    "main.8519dadd.js.map": "/MiAbbie-Natural-Hairstyling/static/js/main.8519dadd.js.map",
+    "453.05dacea6.chunk.js.map": "/MiAbbie-Natural-Hairstyling/static/js/453.05dacea6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2baee5d4.css",
+    "static/js/main.8519dadd.js"
+  ]
+}

@@ -5,34 +5,36 @@ const phoneNumber = "+256758919919";
 
 const images = [
   // --- BRAIDS ---
-  { src: "/braids2.png", title: "Cornrow Braids", category: "Braids" },
-  { src: "/braids1.jpg", title: "Box Braids", category: "Braids" },
-  { src: "/braids3.png", title: "Boho Passion Twists", category: "Braids" },
-  { src: "/brdk1.jpg", title: "Braided Hairstyles For Kids", category: "Braids" },
-  { src: "/brdk1.png", title: "Overlapping Braids", category: "Braids" },
+  {src: process.env.PUBLIC_URL + "/braids2.png", 
+    title: "Classic Box Braids", 
+    category: "Braids" },
+  { src:process.env.PUBLIC_URL +"/braids1.jpg", title: "Box Braids", category: "Braids" },
+  { src: process.env.PUBLIC_URL +"/braids3.png", title: "Boho Passion Twists", category: "Braids" },
+  { src:process.env.PUBLIC_URL + "/brdk1.jpg", title: "Braided Hairstyles For Kids", category: "Braids" },
+  { src: process.env.PUBLIC_URL +"/brdk1.png", title: "Overlapping Braids", category: "Braids" },
   
   // --- NATURAL ---
-  { src: "/n1.png", title: "Defined Natural Curls", category: "Natural" },
-  { src: "/n2.png", title: "Healthy 4C Twist-Out", category: "Natural" },
-  { src: "/n3.jpg", title: "Medium-length natural haircut", category: "Natural" },
-  { src: "/n4.png", title: "Taper curly haircut", category: "Natural" },
-  { src: "/zooey.png", title: "Bantu knot", category: "Natural" },
+  { src: process.env.PUBLIC_URL +"/n1.png", title: "Defined Natural Curls", category: "Natural" },
+  { src: process.env.PUBLIC_URL +"/n2.png", title: "Healthy 4C Twist-Out", category: "Natural" },
+  { src: process.env.PUBLIC_URL +"/n3.jpg", title: "Medium-length natural haircut", category: "Natural" },
+  { src: process.env.PUBLIC_URL +"/n4.png", title: "Taper curly haircut", category: "Natural" },
+  { src: process.env.PUBLIC_URL +"/zooey.png", title: "Bantu knot", category: "Natural" },
   
 
   // --- UPDO ---
-  { src: "/u1.png", title: "Elegant High Bun", category: "Updo" },
-  { src: "/u2.png", title: "Sleek Bridal Updo", category: "Updo" },
-  { src: "/u3.png", title: "Braided Top Knot", category: "Updo" },
-  { src: "/u4.png", title: "Crown Twist Updo", category: "Updo" },
-  { src: "/u5.png", title: "Curly/Coily Updo", category: "Updo" },
+  { src: process.env.PUBLIC_URL +"/u1.png", title: "Elegant High Bun", category: "Updo" },
+  { src: process.env.PUBLIC_URL +"/u2.png", title: "Sleek Bridal Updo", category: "Updo" },
+  { src: process.env.PUBLIC_URL +"/u3.png", title: "Braided Top Knot", category: "Updo" },
+  { src: process.env.PUBLIC_URL +"/u4.png", title: "Crown Twist Updo", category: "Updo" },
+  { src: process.env.PUBLIC_URL +"/u5.png", title: "Curly/Coily Updo", category: "Updo" },
  
 
   // --- COLORING ---
-  { src: "/c1.png", title: "Copper Tinted Tresses", category: "Coloring" },
-  { src: "/c2.png", title: "Copper Tresses", category: "Coloring" },
-  { src: "/c3.png", title: "Burgundy Ombre", category: "Coloring" },
-  { src: "/c4.png", title: "Burgundy golden", category: "Coloring" },
-  { src: "/c5.png", title: "Burgundy light purple", category: "Coloring" },
+  { src: process.env.PUBLIC_URL + "/c1.png", title: "Copper Tinted Tresses", category: "Coloring" },
+  { src: process.env.PUBLIC_URL +"/c2.png", title: "Copper Tresses", category: "Coloring" },
+  { src: process.env.PUBLIC_URL +"/c3.png", title: "Burgundy Ombre", category: "Coloring" },
+  { src: process.env.PUBLIC_URL +"/c4.png", title: "Burgundy golden", category: "Coloring" },
+  { src: process.env.PUBLIC_URL +"/c5.png", title: "Burgundy light purple", category: "Coloring" },
   
 ];
 

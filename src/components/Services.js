@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const naturalHairStyling = [
   {
     title: 'Natural twists',
-    image: '/natural twists.png',
+    image: process.env.PUBLIC_URL +'/natural twists.png',
     desc: 'A protective, cute, and comfy style that keeps your natural hair healthy and on point.',
     options: [
       { name: 'Natural twists', price: 'From UGX 30,000', duration: '180–435 minutes' },
@@ -12,7 +12,7 @@ const naturalHairStyling = [
   },
   {
     title: 'Cornrows',
-    image: '/cornrows.png',
+    image: process.env.PUBLIC_URL +'/cornrows.png',
     desc: 'Natural Hair braiding and flat-twist, no hair piece addition.',
     options: [
       { name: 'Cornrows', price: 'From UGX 25,000', duration: '3–4½ hours' },
@@ -20,7 +20,7 @@ const naturalHairStyling = [
   },
   {
     title: 'Braids',
-    image: '/Braids.png',
+    image: process.env.PUBLIC_URL +'/Braids.png',
     desc: 'Three strands hair braiding. Price includes a hair piece-basic.',
     options: [
       { name: 'Braids', price: 'From UGX 55,000', duration: '4–10 hours' },
@@ -28,7 +28,7 @@ const naturalHairStyling = [
   },
   {
     title: 'Natural styling',
-    image: '/natural styling.png',
+    image: process.env.PUBLIC_URL +'/natural styling.png',
     desc: 'Bespoke natural styles.',
     options: [
       { name: 'Natural styling', price: 'From UGX 40,000', duration: '90–105 minutes' },
@@ -36,7 +36,7 @@ const naturalHairStyling = [
   },
   {
     title: 'Fluffy/ Loose Twists/Braids',
-    image: '/fluffy.png',
+    image: process.env.PUBLIC_URL +'/fluffy.png',
     desc: 'Soft, airy texture. Hair is twisted/braided in a relaxed, undone style. No add-ons, just your natural hair in a beautiful, free-flowing style.',
     options: [
       { name: 'Fluffy/ Loose Twists/Braids', price: 'UGX 45,000', duration: '6 hours' },
@@ -47,7 +47,7 @@ const naturalHairStyling = [
 const naturalHairCare = [
   {
     title: 'Washing',
-    image: '/washing.png',
+    image: process.env.PUBLIC_URL +'/washing.png',
     desc: 'Shampooing, conditioning and drying the hair.',
     options: [
       { name: 'Washing', price: 'From UGX 25,000', duration: '1–2½ hours' },
@@ -55,7 +55,7 @@ const naturalHairCare = [
   },
   {
     title: 'Unplaiting',
-    image: '/unplating.png',
+    image: process.env.PUBLIC_URL +'/unplating.png',
     desc: 'Gently taking down your braids, twists, or protective styles, done with care to protect your natural hair and avoid breakage.',
     options: [
       { name: 'Unplaiting', price: 'From UGX 15,000', duration: '75–315 minutes' },
@@ -63,7 +63,7 @@ const naturalHairCare = [
   },
   {
     title: 'Natural hair care tutorial',
-    image: '/natuaral hair care.png',
+    image: process.env.PUBLIC_URL +'/natuaral hair care.png',
     desc: 'DIY workshops to help you care for your own hair.',
     options: [
       { name: 'Natural hair care tutorial', price: 'UGX 45,000', duration: '' },
@@ -71,7 +71,7 @@ const naturalHairCare = [
   },
    {
     title: 'Tsavorite Spritz Moisturizer Hair Spray',
-    image: '/l1.png',
+    image: process.env.PUBLIC_URL +'/l1.png',
     desc: 'Natural Effective Products For 4C Hair You Can’t Go Wrong With.',
     options: [
       { name: 'Tsavorite Spritz Moisturizer Hair Spray', price: 'From UGX 25,000', duration: '1–2½ hours' },
@@ -79,7 +79,7 @@ const naturalHairCare = [
   },
    {
     title: 'Hair Product',
-    image: '/kkkk.png',
+    image: process.env.PUBLIC_URL +'/kkkk.png',
     desc: 'Shampooing & conditioning .',
     options: [
       { name: 'Hair Products', price: 'From UGX 25,000', duration: '1–2½ hours' },
@@ -90,7 +90,7 @@ const naturalHairCare = [
 const bridalHairServices = [
   {
     title: 'Bridal Hair Package (Bride Only)',
-    image: '/bridal package.png',
+    image: process.env.PUBLIC_URL +'/bridal package.png',
     desc: 'Consultation, optional trial session, and wedding day styling tailored to the bride’s preferences, with or without extensions.',
     options: [
       { name: 'Bridal Hair Package (Bride Only)', price: 'From UGX 500,000', duration: '2 hours' },
@@ -98,7 +98,7 @@ const bridalHairServices = [
   },
   {
     title: 'Bridal Entourage Styling',
-    image: '/bidat entro.png',
+    image: process.env.PUBLIC_URL +'/bidat entro.png',
     desc: 'Coordinated hairstyles for the bridal party, customized to complement the wedding theme. Group bookings may qualify for discounts.',
     options: [
       { name: 'Bridal Entourage Styling', price: 'From UGX 100,000', duration: '1 hour' },
@@ -106,7 +106,7 @@ const bridalHairServices = [
   },
   {
     title: 'Wedding guest styles',
-    image: '/wedding g.png',
+    image: process.env.PUBLIC_URL +'/wedding g.png',
     desc: 'Elegant hairstyles for wedding attendees, suitable for various hair types and lengths. Pricing depends on the complexity of the chosen style.',
     options: [
       { name: 'Wedding guest styles', price: 'From UGX 45,000', duration: '105–120 minutes' },
@@ -114,7 +114,7 @@ const bridalHairServices = [
   },
   {
     title: 'Bridal Hair Package (Bride Only)',
-    image: '/hai3.png',
+    image: process.env.PUBLIC_URL +'/hai3.png',
     desc: 'Consultation, optional trial session, and wedding day styling tailored to the bride’s preferences, with or without extensions.',
     options: [
       { name: 'Bridal Hair Package (Bride Only)', price: 'From UGX 500,000', duration: '2 hours' },
@@ -122,7 +122,7 @@ const bridalHairServices = [
   },
   {
     title: 'Bridal Hair Package (Bride Only)',
-    image: '/hai2.png',
+    image: process.env.PUBLIC_URL +'/hai2.png',
     desc: 'Consultation, optional trial session, and wedding day styling tailored to the bride’s preferences, with or without extensions.',
     options: [
       { name: 'Bridal Hair Package (Bride Only)', price: 'From UGX 500,000', duration: '2 hours' },

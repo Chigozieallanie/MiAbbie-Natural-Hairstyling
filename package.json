@@ -1,5 +1,6 @@
 {
-  "name": "MiAbbie Natural Hairstyling",
+  "homepage": "https://Chigozieallanie.github.io/MiAbbie-Natural-Hairstyling",
+  "name": "miabbie-natural-hairstyling",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "dom": "^0.0.3",
     "framer-motion": "^12.34.0",
+    "gh-pages": "^6.1.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^6.30.3",
@@ -19,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

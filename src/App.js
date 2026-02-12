@@ -40,24 +40,24 @@ function App() {
   {/* The Moving Background Layer */}
   <div className="hero-moving-gallery">
     <div className="gallery-track">
-      <img src="swwa5.png" alt="Twist 1" />
-      <img src="swwa6.png" alt="Twist 2" />
-      <img src="swwa4.png" alt="Twist 3" />
-      <img src="swwa7.png" alt="Twist 4" />
-      <img src="cornrows.png" alt="Twist 5" />
-      <img src="swb.jpg" alt="Twist 6" />
-      <img src="cf.png" alt="Twist 1" />
-      <img src="fc.png" alt="Twist 2" />
-      <img src="brdk1.png" alt="Twist 3" />
-      <img src="fluffy.png" alt="Twist 4" />
-      <img src="c1.png" alt="Twist 5" />
-      <img src="c2.png" alt="Twist 6" />
-      <img src="c3.png" alt="Twist 1" />
-      <img src="c4.png" alt="Twist 2" />
-      <img src="c5.png" alt="Twist 3" />
-      <img src="swwa5.png" alt="Twist 4" />
-      <img src="swwa6.png" alt="Twist 5" />
-      <img src="swwa7.png" alt="Twist 6" />
+      <img src={process.env.PUBLIC_URL + "/swwa5.png"} alt="Twist 1" />
+      <img src={process.env.PUBLIC_URL +"/swwa6.png"} alt="Twist 2" />
+      <img src={process.env.PUBLIC_URL +"/swwa4.png"} alt="Twist 3" />
+      <img src={process.env.PUBLIC_URL +"/swwa7.png"} alt="Twist 4" />
+      <img src={process.env.PUBLIC_URL +"/cornrows.png"} alt="Twist 5" />
+      <img src={process.env.PUBLIC_URL +"/swb.jpg"} alt="Twist 6" />
+      <img src={process.env.PUBLIC_URL +"/cf.png"} alt="Twist 1" />
+      <img src={process.env.PUBLIC_URL +"/fc.png"} alt="Twist 2" />
+      <img src={process.env.PUBLIC_URL +"/brdk1.png"} alt="Twist 3" />
+      <img src={process.env.PUBLIC_URL +"/fluffy.png"} alt="Twist 4" />
+      <img src={process.env.PUBLIC_URL +"/c1.png"} alt="Twist 5" />
+      <img src={process.env.PUBLIC_URL +"/c2.png"} alt="Twist 6" />
+      <img src={process.env.PUBLIC_URL +"/c3.png"} alt="Twist 1" />
+      <img src={process.env.PUBLIC_URL +"/c4.png"} alt="Twist 2" />
+      <img src={process.env.PUBLIC_URL +"/c5.png"} alt="Twist 3" />
+      <img src={process.env.PUBLIC_URL +"/swwa5.png"} alt="Twist 4" />
+      <img src={process.env.PUBLIC_URL +"/swwa6.png"} alt="Twist 5" />
+      <img src={process.env.PUBLIC_URL +"/swwa7.png"} alt="Twist 6" />
     </div>
   </div>
 

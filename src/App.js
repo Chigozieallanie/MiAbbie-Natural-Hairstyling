@@ -6,7 +6,6 @@ import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { CartProvider } from './context/CartContext';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 

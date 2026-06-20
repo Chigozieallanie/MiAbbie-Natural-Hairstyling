@@ -79,7 +79,7 @@ export default function Contact() {
               value={formData.message}
               onChange={handleInputChange}
             />
-            <label>How can we help your hair glow?</label>
+            <label>Which appointment are you booking for?</label>
           </div>
 
           <button className="submit-btn" type="submit">

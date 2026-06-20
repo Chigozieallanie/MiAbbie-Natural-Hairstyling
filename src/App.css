@@ -1397,3 +1397,75 @@ confirm-btn, .close-btn {
   gap: 25px;
   padding: 20px 0;
 }
+/* Catch-all Welcome Section Styling */
+.not-found-welcome {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(rgba(61, 10, 61, 0.8), rgba(61, 10, 61, 0.8)), 
+            url('../public/r.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.welcome-overlay h1 {
+  font-size: 2.5rem;
+  color: #ffd700; /* Gold */
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.welcome-overlay p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.cta-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.cta-box h3 {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.btn-home, .btn-contact {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-home {
+  background-color: #ffd700;
+  color: #3d0a3d;
+}
+
+.btn-contact {
+  border: 2px solid #ffd700;
+  color: #ffd700;
+}
+
+.btn-home:hover {
+  background-color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.btn-contact:hover {
+  background-color: rgba(255, 215, 0, 0.1);
+  transform: translateY(-3px);
+}
+
